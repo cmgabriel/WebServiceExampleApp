@@ -7,8 +7,7 @@
 //
 
 //Define the MACROS to be used for the URI and the API key that is to be accessed.
-//#define API_KEY @"[YOUR_API_KEY]"
-#define API_KEY @"qfk5my226dgnnwwvpqf5rxm4"
+#define API_KEY @"[YOUR_API_KEY]"
 #define URI @"http://api.rottentomatoes.com/api/public/v1.0/lists/movies/box_office.json?apikey="
 
 #import <UIKit/UIKit.h>
