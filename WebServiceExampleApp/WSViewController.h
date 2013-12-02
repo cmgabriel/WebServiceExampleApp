@@ -12,7 +12,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WSViewController : UITableViewController<UITableViewDataSource, UITableViewDataSource,NSURLConnectionDataDelegate>
+@interface WSViewController : UITableViewController<UITableViewDataSource, UITableViewDelegate,NSURLConnectionDataDelegate>
 
 //Stores the values for the data that is returned from the webservice.
 @property (strong,nonatomic) NSMutableData *wsData;
